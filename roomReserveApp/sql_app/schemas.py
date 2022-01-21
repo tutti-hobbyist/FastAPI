@@ -1,3 +1,6 @@
+
+# Fast APIのデータ構造定義
+
 import datetime
 from pydantic import BaseModel, Field
 
