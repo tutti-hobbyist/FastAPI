@@ -22,20 +22,20 @@ APIの管理や実行を容易にする仕組み
 <hr>
 
 ## フォルダ・ファイル構成
-- app.py
+- app.py : 
 Streamlitで作成したUI<br>
 
-- database.py
+- database.py : 
 データベースの定義<br>
 
-- models.py
+- models.py : 
 データベースの構造定義<br>
 
-- schemas.py
+- schemas.py : 
 Fast API用のデータ構造定義<br>
 
-- crud.py
+- crud.py : 
 CRUD操作定義<br>
 
-- main.py
+- main.py : 
 Fast APIの処理定義<br>
