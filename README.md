@@ -18,3 +18,24 @@
 ### APIゲートウェイ
 APIの管理や実行を容易にする仕組み
 例）Amazon API Gateway
+
+<hr>
+
+## フォルダ・ファイル構成
+- app.py
+Streamlitで作成したUI<br>
+
+- database.py
+データベースの定義<br>
+
+- models.py
+データベースの構造定義<br>
+
+- schemas.py
+Fast API用のデータ構造定義<br>
+
+- crud.py
+CRUD操作定義<br>
+
+- main.py
+Fast APIの処理定義<br>

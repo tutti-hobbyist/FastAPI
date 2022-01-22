@@ -4,7 +4,7 @@
 from sqlalchemy import Column, ForeignKey, Integer, String, DateTime
 from sqlalchemy.sql.functions import user
 from sqlalchemy.sql.sqltypes import Date
-from .database import Base
+from database import Base
 
 class User(Base):
     __tablename__ = 'users'

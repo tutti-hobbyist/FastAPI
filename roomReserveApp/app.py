@@ -1,8 +1,13 @@
+
+# streamlit run roomReserveApp/sql_app/main.py
+
+from multiprocessing.spawn import import_main_path
 import streamlit as st
 import datetime 
 import requests
 import json
 import pandas as pd
+import sql_app
 
 page = st.sidebar.selectbox('Choose your page', ['users', 'rooms', 'bookings'])
 

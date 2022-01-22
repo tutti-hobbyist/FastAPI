@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from sqlalchemy.sql.functions import mode
-from . import models, schemas
+import models, schemas
 from fastapi import HTTPException
 
 # ユーザー一覧取得
